@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique - Google Ads 2025</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC05 100%);
+            color: white;
+            padding: 5rem 0;
+            margin-bottom: 3rem;
+        }
+        .feature-card {
+            transition: transform 0.3s;
+            height: 100%;
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+        .platform-card {
+            border-left: 4px solid #4285F4;
+            margin-bottom: 1.5rem;
+        }
+        .platform-card.meta {
+            border-left-color: #1877F2;
+        }
+        .platform-card.microsoft {
+            border-left-color: #7EBA00;
+        }
+        .platform-card.amazon {
+            border-left-color: #FF9900;
+        }
+        .platform-card.tiktok {
+            border-left-color: #000000;
+        }
+        .platform-card.linkedin {
+            border-left-color: #0A66C2;
+        }
+        .platform-card.pinterest {
+            border-left-color: #E60023;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 50px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #dee2e6;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -40px;
+            top: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #4285F4;
+            border: 3px solid white;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 3rem 0;
+            margin-top: 3rem;
+        }
+        .intro-card {
+            border-left: 5px solid #4285F4;
+        }
+        .advantage-card {
+            border-top: 4px solid #34A853;
+        }
+        .disadvantage-card {
+            border-top: 4px solid #EA4335;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                Veille technologique Google Ads 2025 Groupe B
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#introduction">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#evolutions">Évolutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#avantages">Avantages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inconvenients">Inconvénients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#alternatives">Alternatives</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Google Ads en 2025</h1>
+            <p class="lead mb-5">Veille technologique  - Évolutions, Avantages et Alternatives</p>
+            <a href="#introduction" class="btn btn-light btn-lg px-4 me-2">Commencer</a>
+            <a href="#alternatives" class="btn btn-outline-light btn-lg px-4">Voir les alternatives</a>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-4">Introduction à Google Ads</h2>
+                    <div class="card intro-card shadow-sm">
+                        <div class="card-body text-start p-4">
+                            <p class="lead">Google Ads est la plateforme publicitaire en ligne de Google qui permet aux entreprises de diffuser des annonces ciblées auprès d'internautes au moment où ils recherchent des produits ou services.</p>
+                            <p>Fonctionnant sur un système d'enchères basé sur des mots-clés, Google Ads offre un contrôle précis du budget et du ciblage, avec une diffusion possible sur :</p>
+                            <div class="row text-center mt-4">
+                                <div class="col-md-3 mb-3">
+                                    <div class="p-3 bg-light rounded">
+                                        <i class="fas fa-search fa-2x text-primary mb-2"></i>
+                                        <p class="mb-0 fw-bold">Moteur de recherche</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="p-3 bg-light rounded">
+                                        <i class="fab fa-youtube fa-2x text-danger mb-2"></i>
+                                        <p class="mb-0 fw-bold">YouTube</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="p-3 bg-light rounded">
+                                        <i class="fas fa-envelope fa-2x text-info mb-2"></i>
+                                        <p class="mb-0 fw-bold">Gmail</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="p-3 bg-light rounded">
+                                        <i class="fas fa-globe fa-2x text-success mb-2"></i>
+                                        <p class="mb-0 fw-bold">Sites partenaires</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mt-4">Grâce à ses formats variés et à l'intégration croissante de l'intelligence artificielle (IA), Google Ads est un levier essentiel pour générer du trafic qualifié et maximiser le retour sur investissement des campagnes publicitaires.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Évolutions Section -->
+    <section id="evolutions" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold">Évolutions et tendances 2025</h2>
+                    <p class="lead text-muted">Les 5 grandes tendances qui transforment Google Ads</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card feature-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                    <i class="fas fa-robot fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-0">IA & Automatisation</h4>
+                            </div>
+                            <p>L'IA révolutionne Google Ads en optimisant automatiquement les enchères , en générant des annonces semi-autonomes et en affinant le ciblage.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card feature-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                    <i class="fas fa-video fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-0">Formats visuels</h4>
+                            </div>
+                            <p>Les annonces vidéo (YouTube Shorts) et les annonces responsives intégrant images deviennent standards. Ces formats interactifs offrent une meilleure mémorisation et engagement, notamment sur mobile.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card feature-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                    <i class="fas fa-search fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-0">Requête large</h4>
+                            </div>
+                            <p>La requête large gagne en popularité pour toucher un public plus varié. Couplée à l'IA, elle améliore la pertinence des annonces en associant mieux les intentions de recherche aux campagnes.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card feature-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                    <i class="fas fa-shield-alt fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-0">Confidentialité</h4>
+                            </div>
+                            <p>Avec la disparition des cookies tiers et le RGPD, Google Ads s'oriente vers une utilisation renforcée des données de première partie. Les annonceurs doivent adapter leurs stratégies pour respecter la vie privée.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card feature-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                    <i class="fas fa-user-check fa-2x text-primary"></i>
+                                </div>
+                                <h4 class="mb-0">Expérience utilisateur</h4>
+                            </div>
+                            <p>Google met l'accent sur une expérience fluide et qualitative, avec des annonces optimisées pour tous les appareils. L'intégration de réalité augmentée .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avantages Section -->
+    <section id="avantages" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold">Avantages de Google Ads</h2>
+                    <p class="lead text-muted">Pourquoi choisir Google Ads en 2025 ?</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card advantage-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4><i class="fas fa-users text-success me-2"></i> Portée massive</h4>
+                            <p>Google domine la recherche en ligne, offrant un accès à une audience large et souvent en phase d'achat active.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card advantage-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4><i class="fas fa-bullseye text-success me-2"></i> Ciblage précis</h4>
+                            <p>Options avancées incluant ciblage démographique, géographique, comportemental, et le  remarketing .</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card advantage-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4><i class="fas fa-wallet text-success me-2"></i> Contrôle budgétaire</h4>
+                            <p>Possibilité de définir et ajuster budgets et enchères en temps réel selon les performances.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card advantage-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4><i class="fas fa-tachometer-alt text-success me-2"></i> Résultats rapides</h4>
+                            <p>Données en temps réel pour optimiser les campagnes et maximiser le ROI rapidement.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card advantage-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4><i class="fas fa-photo-video text-success me-2"></i> Formats variés</h4>
+                            <p>Annonces textuelles, visuelles, vidéo, responsives, diffusées sur plusieurs supports (recherche, display, vidéo).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inconvénients Section -->
+    <section id="inconvenients" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold">Inconvénients de Google Ads</h2>
+                    <p class="lead text-muted">Les limites à connaître en 2025</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card disadvantage-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4><i class="fas fa-money-bill-wave text-danger me-2"></i> Coûts élevés</h4>
+                            <p>Les enchères sur mots-clés populaires peuvent rapidement devenir coûteuses, limitant l'accès aux petits budgets dans les secteurs concurrentiels.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card disadvantage-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4><i class="fas fa-brain text-danger me-2"></i> Complexité</h4>
+                            <p>La plateforme nécessite des compétences techniques et stratégiques pour éviter le gaspillage budgétaire et optimiser correctement les campagnes.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card disadvantage-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4><i class="fas fa-clock text-danger me-2"></i> Résultats temporaires</h4>
+                            <p>Le trafic généré dépend de la continuité des campagnes payantes, ce qui crée une dépendance à long terme.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card disadvantage-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4><i class="fas fa-user-secret text-danger me-2"></i> Clics frauduleux</h4>
+                            <p>Certains clics peuvent ne pas être qualifiés, entraînant des coûts inutiles malgré les protections mises en place par Google.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card disadvantage-card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4><i class="fas fa-robot text-danger me-2"></i> Automatisation limitée</h4>
+                            <p>Moins de contrôle et de transparence dans les campagnes automatisées comme Performance Max, compliquant l'analyse fine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternatives Section -->
+    <section id="alternatives" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold">Alternatives à Google Ads</h2>
+                    <p class="lead text-muted">Plateformes complémentaires selon vos objectifs</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card platform-card meta mb-4 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title"><i class="fab fa-facebook text-primary me-2"></i>Meta Ads</h4>
+                                <span class="badge bg-primary">Social</span>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">Points forts</h6>
+                            <p class="card-text">Audience massive, formats sociaux engageants</p>
+                            <h6 class="card-subtitle mb-2 text-muted">Limitations</h6>
+                            <p class="card-text">Moins orienté intention d'achat</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card platform-card microsoft mb-4 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title"><i class="fab fa-microsoft text-success me-2"></i>Microsoft Ads</h4>
+                                <span class="badge bg-success">Recherche</span>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">Points forts</h6>
+                            <p class="card-text">Moins de concurrence, intégration LinkedIn</p>
+                            <h6 class="card-subtitle mb-2 text-muted">Limitations</h6>
+                            <p class="card-text">Audience plus restreinte</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card platform-card amazon mb-4 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title"><i class="fab fa-amazon text-warning me-2"></i>Amazon Ads</h4>
+                                <span class="badge bg-warning text-dark">E-commerce</span>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">Points forts</h6>
+                            <p class="card-text">Ciblage achat puissant, idéal e-commerce</p>
+                            <h6 class="card-subtitle mb-2 text-muted">Limitations</h6>
+                            <p class="card-text">Réservé aux vendeurs Amazon</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card platform-card tiktok mb-4 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title"><i class="fab fa-tiktok text-dark me-2"></i>TikTok Ads</h4>
+                                <span class="badge bg-dark">Social</span>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">Points forts</h6>
+                            <p class="card-text">Formats créatifs, fort engagement jeunes</p>
+                            <h6 class="card-subtitle mb-2 text-muted">Limitations</h6>
+                            <p class="card-text">Moins adapté B2B</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card platform-card linkedin mb-4 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title"><i class="fab fa-linkedin text-info me-2"></i>LinkedIn Ads</h4>
+                                <span class="badge bg-info">B2B</span>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">Points forts</h6>
+                            <p class="card-text">Ciblage B2B précis, data professionnelle</p>
+                            <h6 class="card-subtitle mb-2 text-muted">Limitations</h6>
+                            <p class="card-text">CPC élevé, volume plus faible</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card platform-card pinterest mb-4 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title"><i class="fab fa-pinterest text-danger me-2"></i>Pinterest Ads</h4>
+                                <span class="badge bg-danger">Visuel</span>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">Points forts</h6>
+                            <p class="card-text">Public visuel, bon pour lifestyle</p>
+                            <h6 class="card-subtitle mb-2 text-muted">Limitations</h6>
+                            <p class="card-text">Audience plus féminine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusion Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body p-4 p-lg-5">
+                            <h2 class="text-center fw-bold mb-4">Conclusion</h2>
+                            <p>En 2025, Google Ads s'impose comme une plateforme publicitaire en pleine transformation, portée par l'intelligence artificielle, l'automatisation et une expérience utilisateur enrichie via des formats visuels et interactifs.</p>
+                            <p>Les annonceurs doivent s'adapter aux nouvelles règles de confidentialité, optimiser leurs campagnes avec les outils IA et surveiller les tendances sectorielles pour rester compétitifs.</p>
+                            <div class="alert alert-info mt-4">
+                                <i class="fas fa-lightbulb me-2"></i>
+                                <strong>À retenir :</strong> Les alternatives publicitaires offrent des opportunités complémentaires selon les besoins spécifiques des entreprises. Une gestion experte et agile des campagnes reste essentielle pour maximiser leur efficacité.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Veille Technologique Google Ads 2025</h3>
+                    <p class="text-muted">Évolutions, Avantages et Alternatives</p>
+                    
+                    <p class="mt-4 mb-0">&copy; 2025 Groupe B</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
